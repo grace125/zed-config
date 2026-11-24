@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Git: Quick Sync",
+    "command": "git add -A && git commit -m \"autosync\" && git pull && git push",
+    "shell": {
+      "program": "C:\\Users\\Grace\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
+    },
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "no_focus"
+  }
+]

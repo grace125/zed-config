@@ -1,0 +1,48 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "lsp": {
+    "tinymist": {
+      // "initialization_options": {},
+      "settings": {
+        "preview": {
+          "refresh": "onSave",
+          "background": {
+            "enabled": true
+          },
+        },
+        "fontPaths": ["_assets/fonts"],
+        "systemFonts": false,
+        "outputPath": "$root/.build/$dir/$name",
+        "exportPdf": "onSave",
+        "onPaste": "$root/_assets",
+        "lint": { "enabled": true }
+      }
+    }
+  },
+  "terminal": {
+    "shell": {
+      "program": "C:\\Users\\Grace\\AppData\\Local\\Programs\\Git\\bin\\bash.exe"
+    }
+  },
+  "tab_bar": { "show_pinned_tabs_in_separate_row": true },
+  "vim_mode": false,
+  "icon_theme": {
+    "mode": "light",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "light",
+    "light": "One Light",
+    "dark": "One Dark"
+  },
+}

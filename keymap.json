@@ -1,0 +1,9 @@
+[
+  {
+    "context": "Editor && extension == typ",
+    "bindings": {
+      "ctrl-shift-s": ["task::Spawn", { "task_name": "Git: Quick Sync" }]
+    }
+  },
+  // { "context": "Workspace", "bindings": { "ctrl-s": "workspace::SaveAll" }},
+]
