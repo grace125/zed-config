@@ -28,7 +28,7 @@
   },
   "terminal": {
     "shell": {
-      "program": "C:\\Users\\Grace\\AppData\\Local\\Programs\\Git\\bin\\bash.exe"
+      "program": "C:\\Program Files\\Git\\bin\\bash.exe"
     }
   },
   "tab_bar": { "show_pinned_tabs_in_separate_row": true },
